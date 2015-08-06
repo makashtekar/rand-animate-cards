@@ -14,7 +14,9 @@ node index.js
 
 
 ===== DATABASE CONFIURATION =====
+
  // index.js
+
  mongoose.connect('mongodb://localhost:27017/animated_cards');     <-- Change this connection string to according to your local/live
 
  animated_cards is database name
@@ -28,5 +30,5 @@ node index.js
     name (string)
 
   alphabets
-      
+
     letters (array)
