@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app='cardsApp' ng-controller='mainController' > <!-- cardsApp && mainController -->
+
+  <head>
+    <title>{{ title  }}</title>
+    <link rel="stylesheet" href="/css/animate.css" media="screen" title="Animate css" charset="utf-8">
+    <style media="screen">
+      body{
+        max-width:1024px;
+        margin : 0 auto;
+        margin-top : 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+      <div class='navigator' >
+        <a href="#/page1">Page1</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#/page2">Page2</a>
+      </div>
+      <div class="" ng-view></div> <!-- Inject views in this portion -->
+  </body>
+
+
+  <!-- Libraries -->
+  <script type="text/javascript" src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+  <script type="text/javascript" src='/bc/angular/angular.js' ></script>
+  <script type="text/javascript" src='/bc/angular-route/angular-route.min.js' ></script>
+
+  <!-- Main app script -->
+  <script type="text/javascript" src='/js/main.js' ></script>
+
+  <!-- Services -->
+  <script type="text/javascript" src='/js/services/countryService.js' ></script>
+  <script type="text/javascript" src='/js/services/alphabetService.js' ></script>
+
+  <!-- Random element animator directive -->
+  <script type="text/javascript" src='/js/directives/random-ele-animator.js' ></script>
+
+  <!-- Controllers -->
+  <script type="text/javascript" src='/js/controllers/mainController.js' ></script>
+  <script type="text/javascript" src='/js/controllers/page1Controller.js' ></script>
+  <script type="text/javascript" src='/js/controllers/page2Controller.js' ></script>
+
+
+</html>

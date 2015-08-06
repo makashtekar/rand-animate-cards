@@ -1,0 +1,16 @@
+1.
+
+Single page
+  2 views
+Database
+  2 collection in mongodb
+2 views
+
+  have single buttons
+
+  Play -> pause
+
+
+  Do Play
+    View 1 -> Collection 1 
+    View 2 -> Collection 2

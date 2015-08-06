@@ -1,0 +1,9 @@
+var a = 2;
+var b = 3;
+
+var alpha = array( a = 1, b = 2 );
+
+array_sort_key( alpha, true );
+
+
+//a &= b , b &= a;
