@@ -7,6 +7,7 @@ npm install
 bower install
 
 ===== RUN SERVER =====
+
 //app/index.js
 
 node index.js
@@ -19,8 +20,13 @@ node index.js
  animated_cards is database name
 
  Create 2 collections
-    - countries
-      - code (string)
-      - name (string)
-    - alphabets
-      - letters (array)
+
+ countries
+
+    code (string)
+
+    name (string)
+
+  alphabets
+      
+    letters (array)
