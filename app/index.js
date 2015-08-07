@@ -28,7 +28,8 @@ var country = mongoose.model('countries',{
 });
 
 var alphabet = mongoose.model('alphabets',{
-  letter : 'array'
+  letter : 'string',
+  for : 'string'
 });
 // Models ends here ==================================
 
@@ -53,7 +54,7 @@ app.get('/country/getAll',function(req,res){
 
 //Get all alphabets list
 app.get('/alphabets/getAll',function(req,res){
-    alphabet.findOne(function(err, alphabets){
+    alphabet.find(function(err, alphabets){
       if( err ){ // err
         res.json({'message':'Could not retrieve alphabet lists'}); // return pretty error message
       }

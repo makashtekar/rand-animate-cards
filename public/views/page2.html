@@ -2,7 +2,7 @@
 
 <div class="container"><!-- Begin Container  -->
 
-  <div ng-repeat='c in alphabets' move-me="play" >  {{ c }}</div>
+  <div ng-repeat='c in alphabets' move-me="play" >  {{ c.letter }} for {{ c.for }}</div>
 
   <!-- Controll button -->
   <button type="button" ng-click="togglePlay()"  >{{ playButtonMessage }}</button>

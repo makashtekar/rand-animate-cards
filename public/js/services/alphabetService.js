@@ -6,7 +6,7 @@ cardsApp.service('alphabetService',['$http', function($http){
 
      return(request.then(
           function(res){ // Success callback
-            return res.data.letters;
+            return res.data;
           },
           function(err){ // Failure callback
             return err;
