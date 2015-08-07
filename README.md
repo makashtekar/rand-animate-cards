@@ -31,4 +31,6 @@ node index.js
 
   alphabets
 
-    letters (array)
+    letter (string)
+
+    for (string)
